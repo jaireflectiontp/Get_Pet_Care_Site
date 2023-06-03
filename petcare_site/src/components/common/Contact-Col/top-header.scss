@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-header-col {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 15px;
+    height: 50px;
+
+    .top-header-icon {
+        svg{
+            font-size: 2.8rem; 
+            color: 	#8c6239;
+        }
+    }
+
+    .top-header-details {
+
+        h6,
+        span {
+            font-size: 1rem;
+            text-align: left;
+        }
+        h6{
+            color: #2f1313;
+        }
+        span{
+            color: 	#8c6239;
+        }
+    }
+}
