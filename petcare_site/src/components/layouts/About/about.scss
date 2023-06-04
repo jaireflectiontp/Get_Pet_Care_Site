@@ -1,0 +1,52 @@
+.about-container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 0;
+    .about-container-in{
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .about-banner{
+            width: 560px;
+            img{
+                height: 500px;
+            }
+        }
+        .about-us{
+            width: calc(100% - 615px);
+            .tagLine{
+                font-size: 1.4rem;
+                font-weight: bold;
+                color: #777;
+                margin: 32px 0px;
+            }
+            .mv-block{
+                background: #F3F3F3;
+                padding: 20px;
+                min-height: 221px;
+                .toggle-tabs{
+                    margin-bottom: 15px;
+                    display: flex;
+                    .tabs{
+                        width: 50%;
+                        text-align: center;
+                        padding: 5px 0;
+                        color: #ae6427;
+                    }
+                    .active{
+                        background-color: #ae6427;
+                        color: #fff;
+                        transition: 0.5s;
+                    }
+                }
+                .mv-description{
+                    font-size: 1.1rem;
+                    font-weight: 400;
+                    color: #777;
+                }
+            }
+        }
+    }
+}
