@@ -1,0 +1,45 @@
+.serv-card-container {
+    width: 625px;
+    height: 175px;
+    padding: 10px 20px;
+    background-color: #f3f3f3;
+
+    .card-in {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .serv-logo {
+            width: 18%;
+
+            svg {
+                font-size: 6.8rem;
+                color: #ae6427;
+            }
+        }
+
+        .serv-detail {
+            width: 76%;
+
+            h4 {
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 1.1rem;
+                font-weight: 400;
+                color: #777;
+            }
+
+            .more-btn {
+                button {
+                    background-color: transparent;
+                    border: none;
+                    outline: none;
+                    color: #ae6427;
+                }
+            }
+        }
+    }
+}

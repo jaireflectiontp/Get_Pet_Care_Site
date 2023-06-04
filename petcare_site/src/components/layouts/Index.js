@@ -3,6 +3,7 @@ import "../../App.scss"
 import Header from './Header/Header'
 import Home from './Home/Home'
 import About from './About/About'
+import Service from './Service/Service'
 const Index = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const Index = () => {
       <main>
         <Home/>
         <About/>
+        <Service/>
       </main>
     </>
   )
