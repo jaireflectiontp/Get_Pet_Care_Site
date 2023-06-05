@@ -1,0 +1,131 @@
+.footer-container {
+    background-color: #fefefe;
+    padding: 40px 0;
+
+    .footer-contain-in {
+        max-width: 1300px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .footer-col {
+            width: 24%;
+            text-align: left;
+
+            .col-heading {
+                margin-bottom: 20px;
+
+                .heading-container {
+                    padding: 0 15px;
+
+                    h2 {
+                        font-size: 1.25rem;
+                    }
+                }
+
+            }
+
+            .short-info {
+                font-size: 1.1rem;
+                font-weight: 400;
+                color: #777;
+                margin-bottom: 30px;
+            }
+
+            .contact-details {
+                .detail-wrap {
+                    .detail-sign {
+                        svg {
+                            font-size: 1.3rem;
+                            color: #ae6427;
+                            margin-right: 8px;
+                        }
+                    }
+
+                    .main-detail {
+                        font-size: 1.1rem;
+                        font-weight: 400;
+                        color: #777;
+                    }
+                }
+
+                .detail-wrap:nth-child(2) {
+                    margin: 8px 0;
+                }
+            }
+
+            .quick-link-list {
+                display: grid;
+                row-gap: 10px;
+                padding-left: 6px;
+
+                .quick-link {
+                    font-weight: 400;
+                    text-decoration: none;
+                    color: #777;
+
+                    i {
+                        svg {
+                            font-size: 1.1rem;
+                            color: #ae6427;
+                        }
+                    }
+                }
+
+                .quick-link:hover {
+                    color: #ae6427;
+                }
+            }
+
+            .quick-register {
+                margin-bottom: 25px;
+
+                form {
+
+                    input,
+                    button {
+                        background: none;
+                        outline: none;
+                        border: 1px solid #ccc;
+                        font-size: 1.1rem;
+                    }
+
+                    input {
+                        width: 70%;
+                        padding: 15px;
+                        color: #777;
+                        border-right: none;
+                    }
+
+                    input[type=email]:focus {
+                        transition: 0.5s;
+                        box-shadow: 0px 0px 1px 3px #ae64277e;
+                    }
+
+                    ;
+
+                    button {
+                        padding: 15px 0px;
+                        width: 30%;
+                        background-color: #ae6427;
+                        font-weight: 600;
+                        color: #fff;
+                    }
+                }
+            }
+
+            .follow-on-media {
+                .social-links {
+                    padding-top: 15px;
+
+                    span {
+                        border: 1px solid #ae6427;
+                        padding: 5px 6px 10px;
+                        margin-right: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
